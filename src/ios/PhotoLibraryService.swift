@@ -609,6 +609,7 @@ final class PhotoLibraryService {
                     return
                 }
 
+                sleep(1)
                 self.putMediaToAlbum(assetsLibrary, url: assetUrl, album: album, completion: { (error) in
   
                     
